@@ -1,0 +1,13 @@
+.country_detail {
+    width: 100vw;
+    height: 100vh;
+}
+.h2 {
+    width: 100%;
+    text-align: center;
+    padding: 5vw;
+}
+.country_detail.dark {
+    background-color: #202d36;
+    color: white;
+}

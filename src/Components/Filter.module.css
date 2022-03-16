@@ -1,0 +1,58 @@
+.filter {
+    height: 40px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .1);
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+}
+.filter span {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    padding: 10px 20px;
+    transform: translate(0px,-10px);
+}
+.regions {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.region {
+    border: none;
+    background-color: white;
+    padding: 9px 20px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    outline: none;
+}
+.region:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.filter.dark {
+    background-color: #2b3743;
+    color: white;
+}
+
+
+.filter.dark span,.filter.dark .regions,.filter.dark .region {
+    color: white;
+    background-color: #2b3743;
+    
+}
+.filter.dark .regions {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
+}
+.filter.dark .region:hover {
+    background-color: rgba(0, 0, 0, .5);
+}

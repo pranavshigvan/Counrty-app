@@ -1,0 +1,56 @@
+.card {
+    width: 230px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .1),-1px -1px 5px 0 rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+}
+
+.card p span {
+    font-weight: 500;
+    color: rgba(0, 0, 0, .9);
+    margin-right: 2px;
+    text-decoration: none;
+}
+.flag {
+    
+    height: 140px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .1);
+    overflow: hidden;
+    background-color: white;
+    
+}
+.flag img {
+    transition: .5s;
+    width: 100%;
+}
+.flag img:hover {
+    transform: scale(1.2);
+}
+.info {
+    padding: 20px;
+    text-align: left;
+    
+}
+.info h4 {
+    margin-bottom: 10px;
+}
+.dark.card {
+    background-color: #2b3743;
+    color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .2),-1px -1px 5px 0 rgba(0, 0, 0, .2);
+}
+.dark.card span {
+    color: white;
+}
+.dark.card .info h4 {
+    color: white;
+}
+@media (max-width:650px) {
+    .card {
+        width: 260px;
+        height: 320px;
+    }
+}

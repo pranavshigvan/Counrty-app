@@ -1,0 +1,25 @@
+form input {
+    height: 40px;
+    padding: 10px;
+    width: 350px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+form.dark input {
+    background-color: #2b3743;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
+    color: #f6fdfe;
+}
+form.dark input::placeholder {
+    color: #f6fdfe;
+}
+
+@media (max-width:650px) {
+    form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
